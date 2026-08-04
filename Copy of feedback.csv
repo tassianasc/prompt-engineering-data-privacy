@@ -1,0 +1,4 @@
+CustomerName,Email,IPAddress,Feedback,Rating
+John Doe,johndoe@gmail.com,192.168.1.1,"Great service!",5
+Jane Smith,janesmith@yahoo.com,192.168.2.2,"Satisfactory experience.",4
+Mark Taylor,marktaylor@outlook.com,192.168.3.3,"Poor communication.",2

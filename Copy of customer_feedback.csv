@@ -1,0 +1,16 @@
+CustomerName,Email,IPAddress,Feedback,Rating
+Alice Johnson,alice.johnson@example.com,192.168.1.10,Excellent support!,5
+Bob Williams,bob.williams@example.com,192.168.1.11,Very helpful staff.,4
+Charlie Brown,charlie.brown@example.com,192.168.1.12,Average experience.,3
+Diana Prince,diana.prince@example.com,192.168.1.13,Amazing product quality.,5
+Evan Smith,evan.smith@example.com,192.168.1.14,Quick resolution of issues.,4
+Fiona Clark,fiona.clark@example.com,192.168.1.15,Satisfied with the service.,4
+George Martin,george.martin@example.com,192.168.1.16,Will recommend to others.,5
+Hannah Lee,hannah.lee@example.com,192.168.1.17,Could improve delivery time.,3
+Ian Wright,ian.wright@example.com,192.168.1.18,Exceptional customer care.,5
+Julia Adams,julia.adams@example.com,192.168.1.19,Not satisfied with the experience.,2
+Kevin Scott,kevin.scott@example.com,192.168.1.20,Great value for money.,5
+Linda White,linda.white@example.com,192.168.1.21,Service needs improvement.,3
+Mike Davis,mike.davis@example.com,192.168.1.22,Smooth transaction process.,4
+Nina Patel,nina.patel@example.com,192.168.1.23,Delays in response time.,3
+Oliver Twist,oliver.twist@example.com,192.168.1.24,Highly recommended!,5
