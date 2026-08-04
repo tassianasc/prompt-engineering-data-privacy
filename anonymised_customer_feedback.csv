@@ -1,0 +1,16 @@
+CustomerName,Email,IPAddress,Feedback,Rating,RatingCategory
+Cliente001,[EMAIL_REMOVIDO],192.168.xxx.xxx,Excellent support!,5,Alta
+Cliente002,[EMAIL_REMOVIDO],192.168.xxx.xxx,Very helpful staff.,4,Alta
+Cliente003,[EMAIL_REMOVIDO],192.168.xxx.xxx,Average experience.,3,Média
+Cliente004,[EMAIL_REMOVIDO],192.168.xxx.xxx,Amazing product quality.,5,Alta
+Cliente005,[EMAIL_REMOVIDO],192.168.xxx.xxx,Quick resolution of issues.,4,Alta
+Cliente006,[EMAIL_REMOVIDO],192.168.xxx.xxx,Satisfied with the service.,4,Alta
+Cliente007,[EMAIL_REMOVIDO],192.168.xxx.xxx,Will recommend to others.,5,Alta
+Cliente008,[EMAIL_REMOVIDO],192.168.xxx.xxx,Could improve delivery time.,3,Média
+Cliente009,[EMAIL_REMOVIDO],192.168.xxx.xxx,Exceptional customer care.,5,Alta
+Cliente010,[EMAIL_REMOVIDO],192.168.xxx.xxx,Not satisfied with the experience.,2,Baixa
+Cliente011,[EMAIL_REMOVIDO],192.168.xxx.xxx,Great value for money.,5,Alta
+Cliente012,[EMAIL_REMOVIDO],192.168.xxx.xxx,Service needs improvement.,3,Média
+Cliente013,[EMAIL_REMOVIDO],192.168.xxx.xxx,Smooth transaction process.,4,Alta
+Cliente014,[EMAIL_REMOVIDO],192.168.xxx.xxx,Delays in response time.,3,Média
+Cliente015,[EMAIL_REMOVIDO],192.168.xxx.xxx,Highly recommended!,5,Alta
