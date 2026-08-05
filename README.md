@@ -120,19 +120,24 @@ Abaixo está a resposta gerada pelo modelo de linguagem com base unicamente no c
 | Palavras frequentes focam em "support", "staff" e "helpful" | O atendimento humano é o ponto forte da experiência do cliente. | Criar um programa de reconhecimento para a equipe de linha de frente. | Palavras isoladas não indicam o tom exato sem análise de sentimento completa. |
 
 ### 🧠 Revisão Crítica e Reflexão LGPD
-Checklist de Validação do Prompt (Item 15)
-Fidelidade aos dados: A IA utilizou estritamente os números fornecidos, sem inventar percentuais operacionais.
 
-Reconhecimento de Limitações: O modelo explicitou em todas as recomendações que o volume de dados (N=15) exige cautela antes de grandes investimentos.
+#### 📋 Checklist de Validação do Prompt (Item 15)
+- **Fidelidade aos dados:** A IA utilizou estritamente os números fornecidos, sem inventar percentuais operacionais.
+- **Reconhecimento de Limitações:** O modelo explicitou em todas as recomendações que o volume de dados (N=15) exige cautela antes de grandes investimentos.
+- **Ausência de Alucinações:** Não houve invenção de causas externas que não estivessem respaldadas nos agregados.
 
-Ausência de Alucinações: Não houve invenção de causas externas que não estivessem respaldadas nos agregados.
+---
 
-Reflexão sobre Privacidade e Governança
-Eficácia da Anonimização: A combinação de Regex com mascaramento estruturado eliminou o risco de exposição de PIIs diretas e indiretas.
+#### 🛡️ Reflexão sobre Privacidade e Governança
 
-Limitações da Análise: A anonimização em bases pequenas pode reduzir a capacidade da IA de capturar contextos específicos de nicho, exigindo um equilíbrio entre privacidade e utilidade analítica.
+> **Eficácia da Anonimização**  
+> A combinação de Regex com mascaramento estruturado eliminou o risco de exposição de PIIs diretas e indiretas.
 
-Cuidados com IA: Dados Pessoais Sensíveis jamais devem ser transmitidos em sua forma bruta para modelos LLMs terceirizados. A agregação estatística prévia é a estratégia mais recomendada para manter conformidade total com a LGPD e o GDPR.
+> **Limitações da Análise**  
+> A anonimização em bases pequenas pode reduzir a capacidade da IA de capturar contextos específicos de nicho, exigindo um equilíbrio entre privacidade e utilidade analítica.
+
+> **Cuidados com IA**  
+> Dados Pessoais Sensíveis jamais devem ser transmitidos em sua forma bruta para modelos LLMs terceirizados. A agregação estatística prévia é a estratégia mais recomendada para manter conformidade total com a LGPD e o GDPR.
 
 ### 🚀 Como Executar o Projeto
 Clone o repositório:
@@ -147,16 +152,12 @@ Execute todas as células sequencialmente.
 O arquivo anonymised_customer_feedback.csv será gerado automaticamente.
 
 ### 💻 Tecnologias Utilizadas
+
 As principais tecnologias e bibliotecas utilizadas neste projeto são:
 
-Linguagem principal: Python (3.10+)
-
-Manipulação e análise de dados: Pandas
-
-Processamento de texto e expressões regulares: re (Regex)
-
-Contagem e agregação de dados: collections (Counter)
-
-Gerenciamento de arquivos e caminhos: pathlib (Path)
-
-Ambiente de execução: Google Colab (com suporte ao pacote google.colab)
+* 🐍 **Linguagem Principal:** Python 3.10+
+* 📊 **Manipulação e Análise de Dados:** `pandas`
+* 🔤 **Processamento de Texto:** `re` (Expressões Regulares)
+* 🔢 **Contagem e Agregação:** `collections` (`Counter`)
+* 📁 **Gerenciamento de Arquivos:** `pathlib` (`Path`)
+* ☁️ **Ambiente de Execução:** `Google Colab`
