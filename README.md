@@ -65,11 +65,11 @@ Higienização de Texto Livre: Filtro por Regex no comentário para prevenir dad
 <table border="0">
   <tr>
     <td align="center" width="50%" valign="top">
-      <strong>🔴 Base Bruta (Com PII)</strong><br><br>
+      <strong> Base Bruta (Com PII)</strong><br><br>
       <img src="img/Copy%20of%20customer_feedback.png" width="100%" alt="Dados Brutos">
     </td>
     <td align="center" width="50%" valign="top">
-      <strong>🟢 Base Anonimizada (Tratada)</strong><br><br>
+      <strong> Base Anonimizada (Tratada)</strong><br><br>
       <img src="img/anonymised_customer_feedback.png" width="100%" alt="Dados Anonimizados">
     </td>
   </tr>
