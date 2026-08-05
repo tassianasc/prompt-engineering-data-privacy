@@ -68,34 +68,24 @@ Higienização de Texto Livre: Filtro por Regex no comentário para prevenir dad
 | IPs completos restantes | 0 | ✅ Aprovado |
 | E-mails no texto livre | 0 | ✅ Aprovado |
 | IPs no texto livre | 0 | ✅ Aprovado |
+
 ### 📊 Resumo Agregado dos Dados
+
 Estatísticas geradas via Python no Colab utilizadas na contextualização do prompt:
 
-Volume Total de Registros: 15
-
-Avaliação Média: 4.0 / 5.0 (Mínima: 2.0 | Máxima: 5.0)
-
-Distribuição por Categoria:
-
-Alta (Notas 4 e 5): 10 clientes
-
-Média (Nota 3): 4 clientes
-
-Baixa (Nota 2): 1 cliente
-
-Média por Tema Identificado:
-
-Produto: 5.00
-
-Valor e processo: 4.50
-
-Atendimento: 4.20
-
-Geral: 3.75
-
-Prazo e resposta: 3.33 (Gargalo operacional identificado)
-
-Palavras mais Frequentes (Nuvem de termos): experience, satisfied, service, time, excellent, support, helpful, staff.
+* **Volume Total de Registros:** 15
+* **Avaliação Média:** 4.0 / 5.0 *(Mínima: 2.0 | Máxima: 5.0)*
+* **Distribuição por Categoria:**
+  * **Alta (Notas 4 e 5):** 10 clientes
+  * **Média (Nota 3):** 4 clientes
+  * **Baixa (Nota 2):** 1 cliente
+* **Média por Tema Identificado:**
+  * **Produto:** 5.00
+  * **Valor e processo:** 4.50
+  * **Atendimento:** 4.20
+  * **Geral:** 3.75
+  * **Prazo e resposta:** 3.33 *(Gargalo operacional identificado)*
+* **Palavras mais Frequentes (Nuvem de termos):** `experience`, `satisfied`, `service`, `time`, `excellent`, `support`, `helpful`, `staff`.
 
 ### 🤖 Engenharia de Prompt Segura
 O prompt foi construído com atribuição de persona, tarefas bem delimitadas, formato tabular de saída e instrução explícita para evitar alucinações.
