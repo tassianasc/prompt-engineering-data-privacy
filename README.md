@@ -49,7 +49,7 @@ Utilizar **Python** localmente para higienizar, tokenizar, generalizar e agregar
 [ 5. Prompting Seguro para IA ] ──► Envio exclusivo de resumos agregados
 ```
 
-🧪 Validação e Anonimização de PII
+### 🧪 Validação e Anonimização de PII
 Durante o processo de higienização, foram aplicadas as seguintes técnicas:
 
 Tokenização de Clientes: Alice Johnson ➔ Cliente001
@@ -60,14 +60,14 @@ Generalização de Rede: 192.168.1.10 ➔ 192.168.xxx.xxx
 
 Higienização de Texto Livre: Filtro por Regex no comentário para prevenir dados ocultos.
 
-Resultado da Auditoria Interna (Célula 8)
+### Resultado da Auditoria Interna (Célula 8)
 Métrica Auditada	Quantidade Restante	Status de Segurança
 Nomes originais restantes	0	✅ Aprovado
 E-mails originais restantes	0	✅ Aprovado
 IPs completos restantes	0	✅ Aprovado
 E-mails no texto livre	0	✅ Aprovado
 IPs no texto livre	0	✅ Aprovado
-📊 Resumo Agregado dos Dados
+### 📊 Resumo Agregado dos Dados
 Estatísticas geradas via Python no Colab utilizadas na contextualização do prompt:
 
 Volume Total de Registros: 15
@@ -96,7 +96,7 @@ Prazo e resposta: 3.33 (Gargalo operacional identificado)
 
 Palavras mais Frequentes (Nuvem de termos): experience, satisfied, service, time, excellent, support, helpful, staff.
 
-🤖 Engenharia de Prompt Segura
+### 🤖 Engenharia de Prompt Segura
 O prompt foi construído com atribuição de persona, tarefas bem delimitadas, formato tabular de saída e instrução explícita para evitar alucinações.
 
 ```plaintext
@@ -120,7 +120,7 @@ Resumo agregado:
 [Dados estatísticos anonimizados]
 ```
 
-📋 Resultado Obtido da IA
+### 📋 Resultado Obtido da IA
 Abaixo está a resposta gerada pelo modelo de linguagem com base unicamente no contexto seguro fornecido:
 
 Evidência	Interpretação	Recomendação	Limitação
@@ -128,7 +128,7 @@ Média por tema "Prazo e resposta" é a menor (3.33)	Clientes estão insatisfeit
 Distribuição concentra 66,6% das notas na categoria Alta	A percepção geral de valor e qualidade do produto/atendimento é bastante positiva.	Manter os padrões do produto e treinar equipe focando em retenção e upsell.	Viés de amostragem pelo pequeno volume total (15 registros).
 Palavras frequentes focam em "support", "staff" e "helpful"	O atendimento humano é o ponto forte da experiência do cliente.	Criar um programa de reconhecimento para a equipe de linha de frente.	Palavras isoladas não indicam o tom exato sem análise de sentimento completa.
 
-🧠 Revisão Crítica e Reflexão LGPD
+### 🧠 Revisão Crítica e Reflexão LGPD
 Checklist de Validação do Prompt (Item 15)
 Fidelidade aos dados: A IA utilizou estritamente os números fornecidos, sem inventar percentuais operacionais.
 
@@ -143,7 +143,7 @@ Limitações da Análise: A anonimização em bases pequenas pode reduzir a capa
 
 Cuidados com IA: Dados Pessoais Sensíveis jamais devem ser transmitidos em sua forma bruta para modelos LLMs terceirizados. A agregação estatística prévia é a estratégia mais recomendada para manter conformidade total com a LGPD e o GDPR.
 
-🚀 Como Executar o Projeto
+### 🚀 Como Executar o Projeto
 Clone o repositório:
 
 ```bash
@@ -155,7 +155,7 @@ Execute todas as células sequencialmente.
 
 O arquivo anonymised_customer_feedback.csv será gerado automaticamente.
 
-💻 Tecnologias Utilizadas
+### 💻 Tecnologias Utilizadas
 As principais tecnologias e bibliotecas utilizadas neste projeto são:
 
 Linguagem principal: Python (3.10+)
