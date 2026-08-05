@@ -61,12 +61,13 @@ Generalização de Rede: 192.168.1.10 ➔ 192.168.xxx.xxx
 Higienização de Texto Livre: Filtro por Regex no comentário para prevenir dados ocultos.
 
 ### Resultado da Auditoria Interna (Célula 8)
-Métrica Auditada	Quantidade Restante	Status de Segurança
-Nomes originais restantes	0	✅ Aprovado
-E-mails originais restantes	0	✅ Aprovado
-IPs completos restantes	0	✅ Aprovado
-E-mails no texto livre	0	✅ Aprovado
-IPs no texto livre	0	✅ Aprovado
+| Métrica Auditada | Quantidade Restante | Status de Segurança |
+| :--- | :---: | :---: |
+| Nomes originais restantes | 0 | ✅ Aprovado |
+| E-mails originais restantes | 0 | ✅ Aprovado |
+| IPs completos restantes | 0 | ✅ Aprovado |
+| E-mails no texto livre | 0 | ✅ Aprovado |
+| IPs no texto livre | 0 | ✅ Aprovado |
 ### 📊 Resumo Agregado dos Dados
 Estatísticas geradas via Python no Colab utilizadas na contextualização do prompt:
 
@@ -122,11 +123,11 @@ Resumo agregado:
 
 ### 📋 Resultado Obtido da IA
 Abaixo está a resposta gerada pelo modelo de linguagem com base unicamente no contexto seguro fornecido:
-
-Evidência	Interpretação	Recomendação	Limitação
-Média por tema "Prazo e resposta" é a menor (3.33)	Clientes estão insatisfeitos com a velocidade do suporte e tempo de entrega.	Implementar SLAs mais rígidos e respostas automáticas iniciais no suporte.	Amostra reduzida (apenas 3 registros no tema 'Prazo e resposta').
-Distribuição concentra 66,6% das notas na categoria Alta	A percepção geral de valor e qualidade do produto/atendimento é bastante positiva.	Manter os padrões do produto e treinar equipe focando em retenção e upsell.	Viés de amostragem pelo pequeno volume total (15 registros).
-Palavras frequentes focam em "support", "staff" e "helpful"	O atendimento humano é o ponto forte da experiência do cliente.	Criar um programa de reconhecimento para a equipe de linha de frente.	Palavras isoladas não indicam o tom exato sem análise de sentimento completa.
+| Evidência | Interpretação | Recomendação | Limitação |
+| :--- | :--- | :--- | :--- |
+| Média por tema "Prazo e resposta" é a menor (3.33) | Clientes estão insatisfeitos com a velocidade do suporte e tempo de entrega. | Implementar SLAs mais rígidos e respostas automáticas iniciais no suporte. | Amostra reduzida (apenas 3 registros no tema 'Prazo e resposta'). |
+| Distribuição concentra 66,6% das notas na categoria Alta | A percepção geral de valor e qualidade do produto/atendimento é bastante positiva. | Manter os padrões do produto e treinar equipe focando em retenção e upsell. | Viés de amostragem pelo pequeno volume total (15 registros). |
+| Palavras frequentes focam em "support", "staff" e "helpful" | O atendimento humano é o ponto forte da experiência do cliente. | Criar um programa de reconhecimento para a equipe de linha de frente. | Palavras isoladas não indicam o tom exato sem análise de sentimento completa. |
 
 ### 🧠 Revisão Crítica e Reflexão LGPD
 Checklist de Validação do Prompt (Item 15)
