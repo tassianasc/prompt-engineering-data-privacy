@@ -61,7 +61,6 @@ Generalização de Rede: 192.168.1.10 ➔ 192.168.xxx.xxx
 Higienização de Texto Livre: Filtro por Regex no comentário para prevenir dados ocultos.
 
 ### Comparativo Visual: Base Bruta vs. Base Anonimizada
-<h3 align="center">Comparativo Visual: Base Bruta vs. Base Anonimizada</h3>
 
 <table border="0">
   <tr>
