@@ -61,11 +61,20 @@ Generalização de Rede: 192.168.1.10 ➔ 192.168.xxx.xxx
 Higienização de Texto Livre: Filtro por Regex no comentário para prevenir dados ocultos.
 
 ### Comparativo Visual: Base Bruta vs. Base Anonimizada
+<h3 align="center">Comparativo Visual: Base Bruta vs. Base Anonimizada</h3>
 
-<p align="center">
-  <img src="img/Copy%20of%20customer_feedback.png" width="48%" alt="Dados Brutos com PII">
-  <img src="img/anonymised_customer_feedback.png" width="48%" alt="Dados Anonimizados">
-</p>
+<table border="0">
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <strong>🔴 Base Bruta (Com PII)</strong><br><br>
+      <img src="img/Copy%20of%20customer_feedback.png" width="100%" alt="Dados Brutos">
+    </td>
+    <td align="center" width="50%" valign="top">
+      <strong>🟢 Base Anonimizada (Tratada)</strong><br><br>
+      <img src="img/anonymised_customer_feedback.png" width="100%" alt="Dados Anonimizados">
+    </td>
+  </tr>
+</table>
 
 ### Resultado da Auditoria Interna (Célula 8)
 | Métrica Auditada | Quantidade Restante | Status de Segurança |
