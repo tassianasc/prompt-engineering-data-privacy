@@ -147,7 +147,7 @@ Cuidados com IA: Dados Pessoais Sensíveis jamais devem ser transmitidos em sua 
 Clone o repositório:
 
 ```bash
-git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+git clone git@github.com:tassianasc/prompt-engineering-data-privacy.git
 ```
 Abra o arquivo notebook.ipynb no Google Colab ou Jupyter Notebook.
 
